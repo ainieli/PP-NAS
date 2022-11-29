@@ -1,6 +1,7 @@
 import tensorflow as tf
 from hanser.train.learner import Learner, cast
 
+from supernet_CIFAR import Network
 
 class PPNASLearner(Learner):
 
